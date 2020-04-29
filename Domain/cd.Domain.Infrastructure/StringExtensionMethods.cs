@@ -7,7 +7,7 @@ using System.Text;
 using System.Text.Json;
 using Newtonsoft.Json;
 
-namespace cd.Infrastructure.ExtensionMethods
+namespace cd.Domain.Infrastructure
 {
 	public static class StringExtensionMethods
 	{

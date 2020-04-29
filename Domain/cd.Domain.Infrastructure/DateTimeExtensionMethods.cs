@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace cd.Infrastructure.ExtensionMethods
+namespace cd.Domain.Infrastructure
 {
     public static class DateTimeExtensionMethods
     {
@@ -12,7 +12,7 @@ namespace cd.Infrastructure.ExtensionMethods
         /// <returns>DateTime</returns>
         public static DateTime NthDayOfWeekForMonth(this DateTime date, int nth, DayOfWeek dayOfWeek)
         {
-            nth.ValidateRange(1, 4, String.Format("nth is out of range: {0}.", nth));
+            nth.ValidateRange(1, 4, $"nth is out of range: {nth}.");
 
             DateTime next = date.FirstDayOfMonth().Next(dayOfWeek);
 

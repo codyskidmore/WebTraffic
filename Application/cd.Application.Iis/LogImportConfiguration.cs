@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
+using cd.Domain.Infrastructure;
 using cd.Domain.WebTraffic.Interfaces;
 using cd.Domain.WebTraffic.Models;
-using cd.Infrastructure.ExtensionMethods;
 using Microsoft.Extensions.Configuration;
 
 namespace cd.Application.Iis

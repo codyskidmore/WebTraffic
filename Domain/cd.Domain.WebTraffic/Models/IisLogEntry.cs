@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using cd.Infrastructure.ExtensionMethods;
+using cd.Domain.Infrastructure;
 
 namespace cd.Domain.WebTraffic.Models
 {

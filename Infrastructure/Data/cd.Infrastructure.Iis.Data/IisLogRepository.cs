@@ -1,10 +1,8 @@
 ﻿using cd.Domain.WebTraffic.Interfaces;
 using cd.Domain.WebTraffic.Models;
 using cd.Infrastructure.Data;
-using cd.Infrastructure.ExtensionMethods;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;

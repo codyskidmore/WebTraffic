@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Infrastructure\cd.Infrastructure\cd.Infrastructure.ExtensionMethods\cd.Infrastructure.ExtensionMethods.csproj" />
+    <ProjectReference Include="..\cd.Domain.Infrastructure\cd.Domain.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

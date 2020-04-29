@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace cd.Infrastructure.ExtensionMethods
+namespace cd.Domain.Infrastructure
 {
 	public static class ObjectExtensionMethods
 	{

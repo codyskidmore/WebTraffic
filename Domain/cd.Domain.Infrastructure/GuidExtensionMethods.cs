@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace cd.Infrastructure.ExtensionMethods
+namespace cd.Domain.Infrastructure
 {
     public static class GuidExtensionMethods
     {
