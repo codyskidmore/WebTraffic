@@ -9,3 +9,5 @@ Upcoming goals:
 - Add a front-end to so access logs are viewable. This goal is more difficult because it also requires setting up the sign-in gateway to protect the UI & APIs from unauthorized access. Setting up the gatewa is a project all on its own.
 
 To try this out you need .NET 5. Rename the app settings template files and add your connection string. Note that you need to add a SQL account on your server with read/write permission. Then run the migrations to create the database. 
+
+Ping me if you run into trouble getting it running.
