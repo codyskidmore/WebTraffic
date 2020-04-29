@@ -1,5 +1,5 @@
 # WebTraffic
-A project to help aggregate web server logs and consolidate information. Currently it gets all websites and processes their logs in parallel. I plan to switch this to processing log files in parallel which I believe to be mor efficient.
+A project to help aggregate web server logs and consolidate information. Currently it gets all websites and processes their logs in parallel. I plan to switch this to processing log files in parallel which I believe to be more efficient.
 
 The plan is to start with support for IIS. Abstract the details into a provider. Then add support for more web servers.
 
