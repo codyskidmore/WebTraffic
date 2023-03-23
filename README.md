@@ -1,6 +1,8 @@
 # WebTraffic
 A project to help aggregate web server logs and consolidate information. Currently it gets all websites and processes their logs in parallel. I plan to switch this to processing log files in parallel which I believe to be more efficient.
 
+The main feature of this repository is to demonstrate parallel processing data (see [IisLogService](https://github.com/codyskidmore/WebTraffic/blob/master/Application/cd.Application.Iis/IisLogService.cs#L36)).
+
 The plan is to start with support for IIS. Abstract the details into a provider. Then add support for more web servers.
 
 Upcoming goals:
